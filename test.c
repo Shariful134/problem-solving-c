@@ -2,8 +2,10 @@
 
 int main()
 {
-    int n, star = 1;
+    int n;
     scanf("%d", &n);
+    // int star = 1;
+    int star = n;
 
     for (int i = 1; i <= n; i++)
     {
@@ -13,7 +15,7 @@ int main()
         };
 
         printf("\n");
-        star++;
+        star--;
     }
 
     return 0;
